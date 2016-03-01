@@ -1,0 +1,106 @@
+
+config HCT_DEVICE_INFO_SUPPORT
+	bool "HCT DEVICE INFO SUPPORT"
+	default n
+
+config TPD_PROXIMITY
+	bool "TPD_PROXIMITY"
+	default n
+
+config FINGERPRINT_ET300
+	bool "HCT FINGERPRINT_ET300 SUPPORT"
+	default n
+
+config HCT_FINGERPRINT_SUPPORT
+	bool "HCT HCT_FINGERPRINT_SUPPORT"
+	default n
+
+config FINGERPRINT_SILEADE
+	bool "HCT FINGERPRINT_SILEADE SUPPORT"
+	default n
+
+config FINGERPRINT_NEWSCHIP
+	bool "HCT FINGERPRINT_NEWSCHIP SUPPORT"
+	default n
+
+config FINGERPRINT_JMT103
+	bool "HCT FINGERPRINT_JMT103 SUPPORT"
+	default n
+
+config HIGH_BATTERY_VOLTAGE_SUPPORT
+	bool "HCT HIGH_BATTERY_VOLTAGE_SUPPORT"
+	default n
+
+config CAMERA_SHOT_SUPPORT
+	bool "HCT CONFIG_CAMERA_SHOT_SUPPORT"
+	default n
+
+config HCT_TP_GESTRUE
+	bool "CONFIG_HCT_TP_GESTRUE"
+	default n
+
+config HCT_LED_SGM3785
+	bool "HCT CONFIG_HCT_LED_SGM3785"
+	default n
+
+config HCT_GTP_HALL_CFG
+	bool "HCT TP USER DEFERENT CONFIG RELAY ON HALL STATUS"
+	default n
+
+config HCT_SDCARD_DEBOUNCE
+	bool "HCT SDCARD HAS SW DEBOUNCE"
+	default n
+	
+config MTK_DUMMY_PS
+	bool "HCT MTK_DUMMY_PS"
+	default n
+
+config HCT_AF_POWER_ON_NOISE
+	bool "HCT HCT_AF_POWER_ON_NOISE af dvdd power on in sensor driver to avoid noise"
+	default n
+
+config NCP1854_DUAL_SUPPORT
+        bool "CONFIG_NCP1854_DUAL_SUPPORT config dual ncp1854 support"
+        default n
+config HCT_LETTICE_SUPPORT
+        bool "CONFIG_HCT_LETTICE_SUPPORT config lettice chip support"
+        default n
+
+config LETTICE_VD_SUPPORT
+        bool "CONFIG_LETTICE_VD_SUPPORT config lettice voice wakeup feature support"
+        default n
+
+config HIGH_4400_BATTERY_VOLTAGE_SUPPORT
+	bool "HIGH_4400_BATTERY_VOLTAGE_SUPPORT"
+	default n
+
+config NO_RGB_LED_SUPPORT
+	bool "CONFIG NO_RGB_LED_SUPPORT"
+	default n
+config HCT_NCP_HIGHER_CV
+	bool "CONFIG_HCT_NCP_HIGHER_CV config ncp1854 higher voltage support"
+        default n
+
+config HCT_BATTERY_IMPROVE
+        bool "HCT_BATTERY_IMPROVE support"
+        default n
+
+config HCT_REMOVE_SIM_HOT_PLUG
+        bool "HCT_REMOVE_SIM_HOT_PLUG support"
+        default n
+config HCT_REMOVE_SD_HOT_PLUG
+        bool "HCT_REMOVE_SD_HOT_PLUG support"
+        default n
+config GSENSOR_ESD_CHECK_NEW_SUPPORT
+		bool "GSENSOR_ESD_CHECK_NEW support"
+        default n
+	
+config HCT_SUPPORT_ONEKEY_RST_8SEC
+		bool "HCT_SUPPORT_ONEKEY_RST_8SEC support"
+	default n
+config HCT_BATTERY_IMPROVE
+		bool "HCT_BATTERY_IMPROVE support"
+        default n
+config GSL_TP_HALL_MODE
+		bool "GSL_TP_HALL_MODE support"
+	default n

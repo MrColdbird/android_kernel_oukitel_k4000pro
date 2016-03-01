@@ -1,0 +1,13 @@
+
+config T25_PROJ
+	bool "T25_PROJ"
+	default n
+
+# t25u-py-p4015-logicom
+config T25U_PY_P4015
+	bool "T25U_PY_P4015"
+	default n
+
+config T25Y_HS_L422_PROJ
+	bool "T25Y_HS_L422_PROJ"
+	default n

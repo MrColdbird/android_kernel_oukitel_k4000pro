@@ -1,0 +1,75 @@
+
+config RGB_LED_SUPPORT
+	bool "RGB_LED_SUPPORT"
+	default n
+
+config T93E_TS_PROJ
+	bool "T93E_TS_PROJ"
+	default n
+
+config T93F_ANZHI_PROJ
+	bool "T93F_ANZHI_PROJ"
+	default n
+
+config T93A_PROJ
+	bool "T93A_PROJ"
+	default n
+
+config T93Q_LF_PROJ
+	bool "T93Q_LF_PROJ"
+	default n
+
+config T93H_KLT_PROJ
+	bool "T93H_KLT_PROJ"
+	default n
+
+config T93M_PROJ
+	bool "T93M_PROJ"
+	default n
+	
+config T933_PROJ
+	bool "T933_PROJ"
+	default n
+
+config T93T_5512_PROJ
+	bool "T93t_5512_PROJ"
+	default n
+
+config T93E_HAIERT81_TS_PROJ
+	bool "T93E_HAIERT81_TS_PROJ"
+	default n
+
+config T93P_DK_PROJ
+	bool "T93P_DK_PROJ"
+	default n
+	
+config T93D_PROJ
+	bool "T93D_PROJ"
+	default n
+
+config T93BM_DG_PROJ
+	bool "T93BM_DG_PROJ"
+	default n
+
+config T93H_KLT_BOM22_PROJ
+	bool "T93H_KLT_BOM22_PROJ"
+	default n
+
+config T93BQ_PROJ
+	bool "T93BQ_PROJ"
+	default n
+
+config T93AA_PROJ
+	bool "T93AA_PROJ"
+	default n
+
+config T93AD_PROJ
+	bool "T93AD_PROJ"
+	default n
+
+config T93BN_PROJ
+	bool "T93BN_PROJ"
+	default n
+
+
+

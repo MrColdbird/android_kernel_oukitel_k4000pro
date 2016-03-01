@@ -1,0 +1,36 @@
+
+config T89_PROJ
+	bool "T89_PROJ"
+	default n
+
+config T89P_YX_PROJ
+	bool "T89P_YX_PROJ"
+	default n
+
+config T89B_OTD_PROJ
+	bool "T89B_OTD_PROJ"
+	default n
+
+config T89P_HD_PROJ
+	bool "T89P_HD_PROJ"
+	default n
+
+config T89D_KLT_PROJ
+	bool "T89D_KLT_PROJ"
+	default n
+
+config T89G_TX_PROJ
+	bool "T89G_TX_PROJ"
+	default n
+
+config T89J_JK_PROJ
+	bool "T89J_JK_PROJ"
+	default n
+
+config T89N_TS_PROJ
+	bool "T89N_TS_PROJ"
+	default n
+
+config T89P_DG_PROJ
+	bool "T89P_DG_PROJ"
+	default n

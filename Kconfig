@@ -1,0 +1,25 @@
+#
+# For a description of the syntax of this configuration file,
+# see Documentation/kbuild/kconfig-language.txt.
+#
+mainmenu "Linux/$ARCH $KERNELVERSION Kernel Configuration"
+
+config T93_PROJ
+	bool "T93_PROJ"
+	default n
+
+config SRCARCH
+	string
+	option env="SRCARCH"
+
+# add by hct start
+source "Kconfig.hct.common"
+source "Kconfig.hct.t25"
+source "Kconfig.hct.t925"
+source "Kconfig.hct.t93"
+source "Kconfig.hct.t985"
+source "Kconfig.hct.t89"
+source "Kconfig.hct.t99"
+# add by hct end
+
+source "arch/$SRCARCH/Kconfig"

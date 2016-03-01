@@ -1,0 +1,20 @@
+
+config T925_PROJ
+	bool "T925_PROJ"
+	default n
+
+config T925_TIEPIAN
+	bool "T925_TIEPIAN"
+	default n
+
+config T925D_NYX_M18
+	bool "T925D_NYX_M18"
+	default n
+
+config T925M_DH_PROJ
+	bool "T925M_DH_PROJ"
+	default n
+
+config T925U_YS_T925
+	bool "T925U_YS_T925"
+	default n

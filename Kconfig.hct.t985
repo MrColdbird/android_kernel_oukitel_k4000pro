@@ -1,0 +1,9 @@
+
+config T985_PROJ
+	bool "T985_PROJ"
+	default n
+
+config T985B_DWS_PROJ
+	bool "T985B_DWS_PROJ"
+	default n
+

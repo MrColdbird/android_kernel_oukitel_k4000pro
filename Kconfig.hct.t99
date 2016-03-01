@@ -1,0 +1,28 @@
+
+config T99_PROJ
+	bool "T99_PROJ"
+	default n
+
+config T99G_DH_PROJ
+	bool "T99G_DH_PROJ"
+	default n
+
+config T99L_DWS_PROJ
+	bool "T99L_DWS_PROJ"
+	default n
+
+config T99F_LF_PROJ
+	bool "T99F_LF_PROJ"
+	default n
+
+config T991_PROJ
+	bool "T991_PROJ"
+	default n
+
+config T99C_JQ_PROJ
+	bool "T99C_JQ_PROJ"
+	default n
+
+config T99M_JXXC_PROJ
+	bool "T99C_JXXC_PROJ"
+	default n
